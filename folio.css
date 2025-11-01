@@ -1,0 +1,83 @@
+/* ===== Body ===== */
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ecf0f1; /* light off-white for calmness */
+    color: #2c3e50; /* dark charcoal for readability */
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #2980b9, #1abc9c); /* calm + friendly gradient */
+    color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 12px;
+}
+
+h1 { 
+    font-size: 3em; 
+    margin: 0; 
+}
+
+h2 { 
+    color: #16a085; 
+    border-bottom: 2px solid #2980b9; /* subtle heading accent line */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* ===== Sections ===== */
+section {
+    margin: 40px 0;
+    padding: 40px 20px;
+    border-radius: 12px;
+}
+
+/* Alternating background colors for sections */
+section:nth-of-type(odd) {
+    background: #f0fbfc; /* soft teal */
+}
+
+section:nth-of-type(even) {
+    background: #fff8f0; /* soft warm gold */
+}
+
+/* ===== Project Cards ===== */
+.project {
+    border-left: 5px solid #2980b9; /* blue accent line for trust */
+    background: #ffffff; /* white card for clarity */
+    color: #2c3e50; /* readable text */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08); /* subtle depth */
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    border-color: #f39c12; /* soft gold hover effect */
+}
+
+/* ===== Links ===== */
+a { 
+    color: #f39c12; /* fun & highlight */
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: underline; 
+}
+
+#contact a {
+    color: #2980b9; /* trust + clickable */
+}
+
+/* ===== Optional: subtle box spacing ===== */
+p {
+    line-height: 1.6;
+}
